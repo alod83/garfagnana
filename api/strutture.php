@@ -11,7 +11,7 @@ $return = array();
 
 while($riga=mysqli_fetch_assoc($risultato))
 {
-	$riga['Nome'] = ucfirst(strtolower($riga['Nome']));
+	$riga['Nome'] = ucwords(strtolower($riga['Nome']));
 	$riga['Numero'] = intval($riga['Numero']);
 	$riga['Latitudine'] = floatval($riga['Latitudine']);
 	$riga['Longitudine'] = floatval($riga['Longitudine']);
