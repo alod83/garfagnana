@@ -1,0 +1,249 @@
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: auto;
+}
+/* menu che scende dopo lo scroll*/
+
+.navbar {
+  position: fixed;
+  background-color: white;
+  transition: top 0.3s;
+  width: 100%;
+  top:-50px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+  display: block;
+}
+.navbar a {
+  padding: 8px 20px;
+  float: left;
+  color: #696969;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  line-height: 1.8;
+}
+.navbar a:hover {
+  background-color: #a6a6a6;
+  color:black;
+     }
+/*menu iniziale e responsive*/
+.navbarSmall .icon{
+  display: none;
+}
+.navbarSmall a {
+  padding: 8px 20px;
+  float: left;
+  color: #696969;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  line-height: 1.8;
+}
+.navbarSmall a:hover {
+  background-color: #a6a6a6;
+  color:black;
+  }
+@media screen and (max-width: 600px) {
+  .navbarSmall a:not(:first-child) {display: none;}
+  .navbarSmall a.icon {
+    float: right;
+    display: block;
+  }
+  .navbar {
+    display: none;
+  }
+  
+}
+@media screen and (max-width: 600px) {
+  .navbarSmall.responsive {position: relative;}
+  .navbarSmall.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbarSmall.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navbar {
+    display: none;
+  }
+}
+
+  /*Prima parte con titolo iniziale*/
+#home{
+    background-image: url('panorama.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 470px;
+    margin-top: 0px;
+    padding: 120px 0px;
+   }
+h1{
+  font-family: 'Cabin Condensed', sans-serif;
+  color:white;
+  letter-spacing: 10px;
+  font-size:130px;
+  line-height: 1.8;
+  text-align: center;
+  font-weight: lighter;
+  text-shadow: 2px 2px 4px black;
+ }
+
+/* informazioni sulla Garfagnana*/
+#informazioni {
+   box-shadow: 1px 1px 15px 1px; 
+}
+#informazioni img{
+  margin:40px;
+  margin-left: 90px;
+ 
+}
+#informazioni p{
+  margin: 40px;
+  margin-right: 90px;
+  float:right;
+  width: 50%;
+  border: solid;
+  border-radius: 20px;
+  border-color: grey;
+  font-family: "Verdana", sans-serif;
+  padding: 20px;
+}
+/* sezione turismo*/
+#turismo {
+    background-image: url(lago.jpg);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width:100%;
+    
+}
+#turismo h2{
+  font-family: 'Cabin Condensed', sans-serif;
+  font-weight: lighter;
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: 10px;
+  color: #262626;
+  padding: 100px;
+  margin: 0;
+ 
+
+}
+#turismo a{
+   text-decoration: none;
+}
+
+#about{
+   box-shadow: 1px 1px 15px 1px; 
+   width:100%;
+   background-color: #e6e6e6;
+   
+}
+
+#about h3{
+  margin:0;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: lighter;
+  color: #1a1a1a;
+}
+
+#about p{
+  margin:0;
+  float:right;
+  width: 60%;
+  padding:30px;
+  padding-right: 100px;
+  font-family: "Verdana", sans-serif;
+  
+
+}
+#about img{
+  margin:40px;
+  margin-left: 170px;
+  width:130px;
+  border-radius: 20px;
+}
+
+
+
+footer{
+  font-size: 10px;
+  font-weight:lighter;
+  font-family: "Verdana", sans-serif;
+  text-align: center;
+}
+
+#casa a{
+position: fixed;
+text-decoration: none;
+font-size: 40px;
+color:grey;
+margin:0;
+padding: 50px;}
+
+#sfondo p{
+  margin:50px;
+
+}
+/*#escursioni{
+  background-image: url(fortezza.jpg);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    margin-top: 0px;
+    padding: 120px 0px;
+    opacity: 0.7;
+}
+#tradizioni{
+  background-image: url(ponte.jpg);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    margin-top: 0px;
+    padding: 120px 0px;
+    opacity: 0.7;
+}
+
+#prodotti{
+  background-image: url(chiesa.jpg);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    margin-top: 0px;
+    padding: 120px 0px;
+    opacity: 0.7;
+}*/
+
+
+#sfondo{
+  background-color: green;
+}
+
+#sfondo2{
+  background-color: yellow;
+}
+
+
+
+
