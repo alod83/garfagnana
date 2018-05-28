@@ -22,8 +22,10 @@ while($riga=mysqli_fetch_assoc($risultato))
 	$return[] = $riga;
 }
 
+
+
+
+
 echo json_encode($return);
 mysqli_close($conn);
-
-
-?>	
+?>

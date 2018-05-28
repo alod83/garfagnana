@@ -1,4 +1,3 @@
-
 body {
   font-family: "Lato", sans-serif;
   margin: auto;
@@ -76,7 +75,7 @@ body {
 
   /*Prima parte con titolo iniziale*/
 #home{
-    background-image: url('panorama.jpg');
+    background-image: url('../images/panorama.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -98,7 +97,8 @@ h1{
 
 /* informazioni sulla Garfagnana*/
 #informazioni {
-   box-shadow: 1px 1px 15px 1px; 
+   box-shadow: 1px 1px 15px 1px;
+   background-color: #e6e6e6;
 }
 #informazioni img{
   margin:40px;
@@ -118,8 +118,7 @@ h1{
 }
 /* sezione turismo*/
 #turismo {
-    background-image: url(lago.jpg);
-
+    background-image: url(../images/lago.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -185,55 +184,40 @@ footer{
   text-align: center;
 }
 
-#casa a{
-position: fixed;
-text-decoration: none;
-font-size: 40px;
-color:grey;
-margin:0;
-padding: 50px;}
 
-#sfondo p{
-  margin:50px;
+#pagina {
+  background-image: url('../images/panorama.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  }
+#pagina a{
+  color:grey;
+  font-size:40px;
+  position:fixed;
+  margin:10px 20px;
 
 }
-/*#escursioni{
-  background-image: url(fortezza.jpg);
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100px;
-    margin-top: 0px;
-    padding: 120px 0px;
-    opacity: 0.7;
+#titolo h2{
+  text-align: center;
+  padding: 60px;
+  font-size: 30px;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 10px;
+  color: #262626;
+  margin: 0px;
+    
+ }
+#contenitore {
+  box-shadow: 1px 1px 15px 1px;
+  background-color: #e6e6e6;
+  background-size:cover;
+  margin:2%;
+  opacity: 0.94;
 }
-#tradizioni{
-  background-image: url(ponte.jpg);
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100px;
-    margin-top: 0px;
-    padding: 120px 0px;
-    opacity: 0.7;
-}
-
-#prodotti{
-  background-image: url(chiesa.jpg);
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100px;
-    margin-top: 0px;
-    padding: 120px 0px;
-    opacity: 0.7;
-}*/
 
 
 #sfondo{
