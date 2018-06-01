@@ -1,20 +1,28 @@
-$(document).ready(function(){
-	
-	$.getJSON('api/prodotti_tipici.php', function(data){
-		console.log(data);
-		var url_immagine = "";
-		for(var i = 0; i < data.length; i++)
-		{
-			
-			url_immagine = data[i].Numero;
-			console.log(url_immagine);
-			$("#prodotti").append('<h2>' + data[i].Nome + '</h2>');
-			$("#prodotti").append('<img src="images/' + url_immagine + '.jpg" />');
-			$("#prodotti").append('<p>' + data[i].Descrizione + '</p>');
-			
-		}
-	
-	});
+function myFunction() {
+    
+    var x = document.getElementById("myNavbarSmall");
+    if (x.className === "navbarSmall") {
+        x.className += " responsive";
+                
+    } else {
+        x.className = "navbarSmall";
+
+    }
+}
+
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myNavbar").style.top = "0";
+    } else {
+        document.getElementById("myNavbar").style.top = "-50px";
+   }
+}
 
 
-});
+
+
+
+

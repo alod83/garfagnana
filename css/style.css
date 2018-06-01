@@ -95,27 +95,29 @@ h1{
   text-shadow: 2px 2px 4px black;
  }
 
-/* informazioni sulla Garfagnana*/
 #informazioni {
-   box-shadow: 1px 1px 15px 1px;
+   box-shadow: 1px 1px 15px 1px; 
+   width:100%;
    background-color: #e6e6e6;
+   
+}
+
+
+#informazioni p{
+  margin:0;
+  padding:30px;
+ font-family: "Verdana", sans-serif;
+  
+
 }
 #informazioni img{
-  margin:40px;
-  margin-left: 90px;
+  float:left;
+  margin:10px 40px;
  
+  width:200px;
+  
 }
-#informazioni p{
-  margin: 40px;
-  margin-right: 90px;
-  float:right;
-  width: 50%;
-  border: solid;
-  border-radius: 20px;
-  border-color: grey;
-  font-family: "Verdana", sans-serif;
-  padding: 20px;
-}
+
 /* sezione turismo*/
 #turismo {
     background-image: url(../images/lago.jpg);
@@ -159,18 +161,17 @@ h1{
 }
 
 #about p{
-  margin:0;
-  float:right;
-  width: 60%;
+ margin:0;
   padding:30px;
-  padding-right: 100px;
-  font-family: "Verdana", sans-serif;
+ font-family: "Verdana", sans-serif;
+  
   
 
 }
 #about img{
-  margin:40px;
-  margin-left: 170px;
+  float:left;
+  margin:10px 40px;
+ 
   width:130px;
   border-radius: 20px;
 }
@@ -184,22 +185,28 @@ footer{
   text-align: center;
 }
 
-
-#pagina {
-  background-image: url('../images/panorama.jpg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 700px;
-  }
-#pagina a{
-  color:grey;
-  font-size:40px;
-  position:fixed;
-  margin:10px 20px;
-
+#menu {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+  display: block;
 }
+#menu a {
+  padding: 8px 20px;
+  float: left;
+  color: #696969;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  line-height: 1.8;
+}
+#menu a:hover {
+  background-color: #a6a6a6;
+  color:black;
+     }
+
 #titolo h2{
   text-align: center;
   padding: 60px;
@@ -215,18 +222,36 @@ footer{
   box-shadow: 1px 1px 15px 1px;
   background-color: #e6e6e6;
   background-size:cover;
-  margin:2%;
-  opacity: 0.94;
+  margin: 5%;
+  
+  font-family: "Verdana", sans-serif;
+}
+
+#contenitore img{
+  border-radius: 20px;
+  width: 10%;
+  margin:3px 15px;
+  float: left;
+  
+  
+}
+
+#contenitore h2{
+padding: 47px 10px 15px 15px;
+margin: 0;
+
+}
+
+#contenitore p{
+padding: 10px 10px 10px 10px;
+margin:0;
+
+
 }
 
 
-#sfondo{
-  background-color: green;
-}
 
-#sfondo2{
-  background-color: yellow;
-}
+
 
 
 
