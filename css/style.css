@@ -120,7 +120,7 @@ h1{
 
 /* sezione turismo*/
 #turismo {
-    background-image: url(../images/lago.jpg);
+    background-image: url(../images/attrazioni/31.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -190,7 +190,8 @@ footer{
   background-color: white;
   width: 100%;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
-  display: block;
+  overflow: hidden;
+  
 }
 #menu a {
   padding: 8px 20px;
@@ -201,6 +202,7 @@ footer{
   font-size: 15px;
   display: block;
   line-height: 1.8;
+
 }
 #menu a:hover {
   background-color: #a6a6a6;
@@ -219,12 +221,12 @@ footer{
     
  }
 #contenitore {
-  box-shadow: 1px 1px 15px 1px;
-  background-color: #e6e6e6;
-  background-size:cover;
+   box-shadow: 1px 1px 15px 0;
+   background-color: #e6e6e6;
+ 
   margin: 5%;
   
-  font-family: "Verdana", sans-serif;
+  
 }
 
 #contenitore img{
@@ -239,20 +241,88 @@ footer{
 #contenitore h2{
 padding: 47px 10px 15px 15px;
 margin: 0;
+font-family: 'Cabin Condensed', sans-serif;
 
 }
 
 #contenitore p{
+  font-family: "Verdana", sans-serif;
 padding: 10px 10px 10px 10px;
 margin:0;
 
+}
 
+#frecce{
+  text-align: center;
+}
+#frecce img{
+  width:30px;
+  margin:0 20px;
+
+}
+
+#immagini{
+  text-align: center;
+}
+#immagini img{
+  width:400px;
+margin: 10px;
+  border-radius: 20px;
+   box-shadow: 1px 1px 15px 1px;
+}
+#scritta ul {
+ 
+  font-family: 'Cabin Condensed', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 10px;
+  
+  text-align: center;
+
+}
+#scritta li{
+  padding:0 20px 0 20px;
+  display: inline-block;}
+
+#scritta a{
+   text-decoration: none;
+   color: #262626;
 }
 
 
 
+#elenco img{
+  border-radius: 20px;
+  width: 20%;
+  margin:10px;
+  float:right;
+
+   
+}
+
+#elenco h2{
+padding: 10px 10px 15px 15px;
+font-family: 'Cabin Condensed', sans-serif;
+text-align: center;
+font-size: 30px;
+font-weight: lighter;
+letter-spacing: 10px;
+color: #262626;
+margin: 0px;
+background-color: #e6e6e6;
+}
+
+#elenco p{
+padding: 10px 30px 10px 20px;
+margin: 0;
 
 
+}
 
+#map {
+        height: 400px;  
+        width: 80%;
+        margin: 5px 0 10px 130px;
 
-
+       
+       }
